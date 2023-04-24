@@ -1,0 +1,128 @@
+.footer-container {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  background-image: url("http://localhost:3000/images/home/footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom 68px;
+  padding: 40px 60px 10px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-top-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 50px;
+  padding-inline: 90px;
+}
+
+.footer-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: start;
+}
+
+.footer-content-right p {
+  line-height: 30px;
+  text-align: justify;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-link-single {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-link-signle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 90px;
+}
+
+.footer-link-single h2::before {
+  content: " ";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: white;
+  transform: rotate(-45deg);
+}
+
+.footer-link-single h2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-call-number-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-social-icons-container img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.footer-bottom-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* media Querys */
+
+@media screen and (width<=576px) {
+  .footer-top-container {
+    grid-template-columns: 1fr;
+    padding-inline: 5px;
+  }
+
+  .footer-container {
+    padding: 40px 0px 10px 0px;
+  }
+}
+
+@media screen and (576px<width<=768px) {
+  .footer-top-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (768px<width<=950px) {
+  .footer-top-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (950px<width< 1024px) {
+  .footer-top-container {
+    grid-template-columns: 1.25fr 2fr;
+    padding-inline: 50px;
+  }
+}
+
+@media screen and (width> 1024px) {}

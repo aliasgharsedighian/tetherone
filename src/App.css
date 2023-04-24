@@ -1,0 +1,56 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  src: url("./font/font-iransans/IRANSANS.TTF") format("truetype");
+}
+
+:root {
+  --main-font: "IRANSans";
+  --white: #ffffff;
+  --black: #000000;
+  --light-black: rgba(0, 0, 0, 0.1);
+  --very-light-black: rgba(0, 0, 0, 0.05);
+  --green: rgb(0, 155, 135);
+  --green-hover: rgb(0, 184, 159);
+  --light-green: rgba(0, 155, 135, 0.1);
+  --red: #d85140;
+  --red-hover: rgb(229 139 128);
+  --blue: #3d6b99;
+}
+
+* {
+  margin: 0;
+  font-family: var(--main-font);
+}
+
+.App {
+  direction: rtl;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+/* media Querys */
+
+@media screen and (width<=576px) {}
+
+@media screen and (576px<width<=768px) {}
+
+@media screen and (768px<width<=950px) {}
+
+@media screen and (width< 950px) {}

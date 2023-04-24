@@ -1,0 +1,12 @@
+1.
+when clicked out of menuOpen component menuOpen close
+2.add comment for detail
+
+3.add clean up function with useEffect for addEventListeners for better performance app
+4.clean up code writing
+5.fix right side overflow
+6.fix navbar title
+
+7.create Page for more coin
+
+9.after fix all above issues fix console warning

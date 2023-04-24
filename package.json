@@ -1,0 +1,57 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@heroicons/react": "^2.0.16",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-swipe": "^0.0.23",
+    "react-owl-carousel": "^2.3.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "file:babel/core@babel/plugin-proposal-class-properties@babel/preset-env@babel/preset-react@babel/preset-typescript@kadira/react-storybook-addon-info@kadira/storybook@storybook/addon-actions@storybook/addon-essentials@storybook/addon-knobs@storybook/addon-storysource@storybook/addon-viewport@storybook/react@types/classnames@types/enzyme@types/jest@types/react@types/react-dom@types/react-test-rendererauto-changelogbabel-loadercss-loaderenzymeenzyme-adapter-react-16gh-pageshuskyjest-climkdirpnode-sassparcel-bundlerprettierpretty-quickreactreact-domreact-playerreact-test-renderersass-loaderstyle-loadertypescript",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.0",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "postcss": "^8.4.21",
+    "react-player": "^2.12.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.7"
+  }
+}
