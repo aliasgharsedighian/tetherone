@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import "./exinoMarket.css";
+import "./exinoMarketEn.css";
 
-function ExinoMarket() {
+function ExinoMarketEn() {
   let IRR = useRef();
   let USDT = useRef();
   let DAI = useRef();
@@ -10,8 +10,8 @@ function ExinoMarket() {
   return (
     <div className="exino-market-container">
       <div className="exino-market-title">
-        <h2>بازار های تتروان مارکت</h2>
-        <p>قیمت های لحظه ای تتروان مارکت در یک نگاه</p>
+        <h2>All TetherOne Markets</h2>
+        <p>The current prices of TetherOne Market at a glance</p>
       </div>
       <div className="exino-market-switch-arz">
         <p
@@ -77,17 +77,17 @@ function ExinoMarket() {
         </p>
       </div>
       <div className="exino-market-content-title">
-        <p>جفت ارز</p>
-        <p>قیمت</p>
-        <p>تغییرات(24h)</p>
+        <p>Currency pairs</p>
+        <p>Price</p>
+        <p>Changes(24h)</p>
       </div>
       <div className="exino-market-content">
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/ada.png" alt="" />
             <div>
               <p>ADA/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -98,11 +98,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/bnb.png" alt="" />
             <div>
               <p>BNB/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -113,11 +113,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/btc.png" alt="" />
             <div>
               <p>BTC/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -128,11 +128,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/cro.png" alt="" />
             <div>
               <p>CRO/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -143,11 +143,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/eth.png" alt="" />
             <div>
               <p>ETH/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -158,11 +158,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/luna.png" alt="" />
             <div>
               <p>LUNA/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -173,11 +173,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/mana.png" alt="" />
             <div>
               <p>MANA/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -188,11 +188,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-single">
-          <div className="tetherone-market-first-column">
+          <div className="tetherone-market-first-column-En">
             <img src="/images/coin/poly.png" alt="" />
             <div>
               <p>POLY/USDT</p>
-              <span>1,652,544.16 حجم</span>
+              <span>1,652,544.16 Volume</span>
             </div>
           </div>
           <div>
@@ -203,11 +203,11 @@ function ExinoMarket() {
           </div>
         </div>
         <div className="exino-market-content-more">
-          <button>بیشتر</button>
+          <button>More</button>
         </div>
       </div>
     </div>
   );
 }
 
-export default ExinoMarket;
+export default ExinoMarketEn;

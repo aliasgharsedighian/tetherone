@@ -71,8 +71,9 @@
   font-weight: bold;
 }
 
-.footer-call-number-container {
+.footer-call-number-container-En {
   display: flex;
+  flex-direction: row-reverse;
   gap: 10px;
   align-items: center;
 }

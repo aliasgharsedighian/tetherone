@@ -1,0 +1,105 @@
+.download-application-container {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  background-color: #009b87;
+  margin-top: 60px;
+  padding-top: 50px;
+  gap: 140px;
+  position: relative;
+  place-items: center;
+}
+.download-application-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 40px;
+  justify-content: center;
+}
+.download-application-right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.download-application-right-top h3 {
+  font-size: 28px;
+}
+.download-application-right-top p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.download-application-right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.download-application-right-bottom-title {
+  display: flex;
+  justify-content: space-around;
+}
+.download-application-right-bottom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding-bottom: 40px;
+  place-items: center;
+}
+.download-application-right-bottom-content-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #009b87;
+  gap: 5px;
+  border-radius: 7px;
+  padding: 5px 5px;
+  width: 170px;
+}
+.download-application-right-bottom-content-single img {
+  width: 35px;
+}
+.download-application-right-bottom-content-single p {
+  font-size: 12px;
+  text-align: center;
+}
+.download-application-left img {
+  width: 250px;
+}
+.download-application-left {
+  position: absolute;
+  left: 10%;
+  top: 88px;
+}
+/* media Querys */
+
+@media screen and (width<= 576px) {
+  .download-application-container {
+    grid-template-columns: 1fr;
+  }
+  .download-application-left {
+    position: initial;
+  }
+  .download-application-right-bottom-content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (576px<width<= 768px) {
+  .download-application-container {
+    grid-template-columns: 1fr;
+  }
+  .download-application-left {
+    position: initial;
+  }
+}
+@media screen and (768px<width<= 950px) {
+  .download-application-container {
+    gap: 40px;
+  }
+}
+@media screen and (950px<width< 1024px) {
+  .download-application-container {
+    gap: 40px;
+  }
+}
+@media screen and (width> 1024px) {
+}

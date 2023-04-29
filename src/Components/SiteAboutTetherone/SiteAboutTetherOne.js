@@ -18,7 +18,7 @@ function SiteAboutTetherOne() {
               کارمزد ممکن میتوانید این تبادل ارزی را انجام دهید.
             </p>
           </div>
-          <img src="http://localhost:3000/images/home/ORH93Nd11.png" alt="" />
+          <img src="/images/home/ORH93Nd11.png" alt="" />
         </div>
         <div className="about-tetherone-home-page-left">
           <div className="about-tetherone-home-page-left-single">

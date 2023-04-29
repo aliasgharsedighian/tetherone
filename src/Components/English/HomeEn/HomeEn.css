@@ -1,0 +1,381 @@
+.home-bg-head-img {
+  width: 200vw !important;
+  filter: brightness(70%);
+}
+
+.home-bg-containerEn {
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.home-bg-container-top {
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container-bottom {
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  /* background-color: #3d6b99; */
+}
+
+.other-coin-momentary-paret-container {
+  direction: ltr !important;
+  margin-top: 100px;
+}
+
+.calculate-page-home-container {
+  position: absolute;
+  /* left: 5%; */
+  top: 34%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.advantages-site-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  max-width: 1300px;
+  margin-top: 50px;
+}
+
+.advantages-site-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.advantages-site-single-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.advantages-site-single-content img {
+  width: 80px;
+}
+
+.advantages-site-single-content h3 {
+  font-size: 20px;
+}
+
+.advantages-site-single-content p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.title-one-home-page-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-block: 60px;
+  line-height: 25px;
+  place-items: center;
+  background: #009b87;
+  padding: 40px 50px;
+  color: white;
+  align-items: start;
+}
+
+.title-one-home-page-container-max-width {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-block: 60px;
+  line-height: 25px;
+  place-items: center;
+  background: #009b87;
+  padding: 40px 50px;
+  color: white;
+  align-items: start;
+  max-width: 1300px;
+}
+
+.about-tetherone-home-page-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-tetherone-home-page-right h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.about-tetherone-home-page-top {
+  display: grid;
+  grid-template-columns: 1fr 1.45fr;
+  gap: 50px;
+}
+
+.about-tetherone-home-page-top img {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-tetherone-home-page-left {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20px;
+}
+
+.about-tetherone-home-page-left-single {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.about-tetherone-home-page-left-single-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-tetherone-home-page-left-single-detail h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.about-tetherone-home-page-left-single-detail p {
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.about-tetherone-home-page-right p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.how-to-sell-and-buy-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+  padding-inline: 50px;
+  max-width: 1200px;
+}
+
+.how-to-sell-and-buy-container h2 {
+  font-size: 30px;
+}
+
+.how-to-sell-and-buy-content {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 40px;
+  /* place-items: center; */
+}
+
+.how-to-sell-and-buy-content-main-img {
+  width: 300px;
+}
+
+.how-to-sell-and-buy-content-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  justify-content: start;
+}
+
+.how-to-sell-and-buy-content-head-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(228 233 238);
+  /* width: 285px; */
+  border-radius: 10px;
+}
+
+.how-to-sell-and-buy-content-head-switch p {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.how-to-sell-and-buy-content-head-switch p.active {
+  background-color: rgb(0 155 135);
+  color: white;
+  border-radius: 7px;
+}
+
+.how-to-sell-and-buy-content-single {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.how-to-sell-and-buy-content-single span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.how-to-sell-and-buy-content-single-p-span {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* media Querys */
+
+@media screen and (width<=576px) {
+  .other-coin-momentary-paret-container {
+    margin-top: 300px;
+  }
+
+  .calculate-page-home-container {
+    top: 38%;
+  }
+
+  .advantages-site-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* .title-one-home-page-container {
+    max-width: 95%;
+  } */
+  .how-to-sell-and-buy-content {
+    grid-template-columns: 1fr;
+  }
+
+  .title-one-home-page-container {
+    grid-template-columns: 1fr;
+  }
+
+  .advantages-site-contents {
+    grid-template-columns: 1fr;
+  }
+
+  .about-tetherone-home-page-left-single {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-tetherone-home-page-top {
+    grid-template-columns: 1fr;
+  }
+
+  .about-tetherone-home-page-top img {
+    display: none;
+  }
+
+  .about-tetherone-home-page-left {
+    display: grid;
+  }
+}
+
+@media screen and (576px<width<=768px) {
+  .other-coin-momentary-paret-container {
+    margin-top: 300px;
+  }
+
+  .calculate-page-home-container {
+    top: 42%;
+  }
+
+  .advantages-site-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .title-one-home-page-container {
+    max-width: 80%;
+  } */
+  .how-to-sell-and-buy-content {
+    grid-template-columns: 1fr;
+  }
+
+  .title-one-home-page-container {
+    grid-template-columns: 1fr;
+  }
+
+  .advantages-site-contents {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-tetherone-home-page-top {
+    grid-template-columns: 1fr;
+  }
+
+  .about-tetherone-home-page-top img {
+    display: none;
+  }
+
+  .about-tetherone-home-page-left {
+    display: grid;
+  }
+}
+
+@media screen and (768px<width<=950px) {
+  .other-coin-momentary-paret-container {
+    margin-top: 140px;
+  }
+
+  .title-one-home-page-container {
+    grid-template-columns: 1fr;
+  }
+
+  .advantages-site-contents {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-tetherone-home-page-top {
+    grid-template-columns: 1fr;
+  }
+
+  .about-tetherone-home-page-top img {
+    display: none;
+  }
+
+  .about-tetherone-home-page-left {
+    display: grid;
+  }
+}
+
+@media screen and (950px<width< 1024px) {
+  .other-coin-momentary-paret-container {
+    margin-top: 140px;
+  }
+
+  .home-container-bottom {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (width> 1024px) {
+  .home-container-bottom {
+    margin-top: 190px;
+  }
+}
