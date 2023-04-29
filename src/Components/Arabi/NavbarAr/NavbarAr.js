@@ -93,7 +93,7 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
         </div>
       </div>
       <div className="navbar-right-side">
-        <div className="navbar-logo" onClick={() => navigate("/")}>
+        <div className="navbar-logo" onClick={() => navigate("/ar")}>
           <Bars3Icon onClick={openMenuHandle} className="navbar-menu-icon" />
           <img
             className="cursor-pointer"

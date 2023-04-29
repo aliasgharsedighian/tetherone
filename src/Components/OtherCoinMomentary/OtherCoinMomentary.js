@@ -37,14 +37,6 @@ function OtherCoinMomentary() {
     }
   }
 
-  function test() {
-    if (window.screenX < 400) {
-      console.log(true);
-    } else if (window.screenX) {
-      console.log(false);
-    }
-  }
-
   //use cleanup function in useEffect hook for addEventListener for better performance
   window.addEventListener("resize", getRightColumn);
 

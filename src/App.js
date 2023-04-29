@@ -11,9 +11,20 @@ import NavbarAr from "./Components/Arabi/NavbarAr/NavbarAr";
 // import Test from "./Components/OwlCarousel/Test";
 
 function App() {
+  let location = window.location.pathname;
   const [openMenu, setOpenMenu] = useState(false);
-  const [language, setLanguage] = useState("FA");
+  const [language, setLanguage] = useState("");
   const [title, setTitle] = useState("تتروان");
+
+  useEffect(() => {
+    if (location === "/") {
+      setLanguage("FA");
+    } else if (location === "/en") {
+      setLanguage("EN");
+    } else {
+      setLanguage("AR");
+    }
+  }, [language, location]);
 
   useEffect(() => {
     document.title = title;
@@ -21,7 +32,7 @@ function App() {
   return (
     <div className="App">
       {/* <Navbar setOpenMenu={setOpenMenu} /> */}
-      {language === "FA" ? (
+      {/* {language === "FA" ? (
         <Navbar
           setOpenMenu={setOpenMenu}
           setLanguage={setLanguage}
@@ -34,6 +45,27 @@ function App() {
           setTitle={setTitle}
         />
       ) : (
+        <NavbarAr
+          setOpenMenu={setOpenMenu}
+          setLanguage={setLanguage}
+          setTitle={setTitle}
+        />
+      )} */}
+      {language === "FA" && (
+        <Navbar
+          setOpenMenu={setOpenMenu}
+          setLanguage={setLanguage}
+          setTitle={setTitle}
+        />
+      )}
+      {language === "EN" && (
+        <NavbarEn
+          setOpenMenu={setOpenMenu}
+          setLanguage={setLanguage}
+          setTitle={setTitle}
+        />
+      )}
+      {language === "AR" && (
         <NavbarAr
           setOpenMenu={setOpenMenu}
           setLanguage={setLanguage}

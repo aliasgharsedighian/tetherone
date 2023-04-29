@@ -4,9 +4,7 @@ import React from "react";
 function SiteAdvantagesAr() {
   return (
     <div className="advantages-site-container">
-      <div className="advantages-site-title">
-        <h2></h2>
-      </div>
+      <div className="advantages-site-title">{/* <h2></h2> */}</div>
       <div className="advantages-site-contents">
         <div className="advantages-site-single-content">
           <img src="./images/home/fast.svg" alt="" />
