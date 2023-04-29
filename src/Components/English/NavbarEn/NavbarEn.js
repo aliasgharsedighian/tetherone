@@ -144,6 +144,7 @@ function NavbarEn({ setOpenMenu, setLanguage, setTitle }) {
             onClick={() => {
               setLanguage("AR");
               navigate("/ar");
+              setTitle("سوق صرف الدرهم عبر الإنترنت");
             }}
             className="change-language-single"
           >

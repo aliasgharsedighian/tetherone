@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./Navbar.css";
+import "./NavbarAr.css";
 import { UserIcon, Bars3Icon } from "@heroicons/react/20/solid";
 import {
   HomeIcon,
@@ -11,7 +11,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { Link, useNavigate } from "react-router-dom";
 
-function Navbar({ setOpenMenu, setLanguage, setTitle }) {
+function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
   const [navbarBgChange, setNavbarBgChange] = useState(false);
   const [sidebar, setSidebar] = useState(false);
   const navigate = useNavigate();
@@ -69,27 +69,27 @@ function Navbar({ setOpenMenu, setLanguage, setTitle }) {
       <div className={sidebar ? "navbar-open-menu active" : "navbar-open-menu"}>
         <div className="navbar-open-menu-item">
           <HomeIcon className="navbar-icons" />
-          <span>خانه</span>
+          <span>الصفحة الرئيسية</span>
         </div>
         <div className="navbar-open-menu-item">
           <NewspaperIcon className="navbar-icons" />
-          <span>بلاگ</span>
+          <span>مدونة</span>
         </div>
         <div className="navbar-open-menu-item">
           <DocumentMagnifyingGlassIcon className="navbar-icons" />
-          <span>راهنمای استفاده</span>
+          <span>دليل المستخدم</span>
         </div>
         <div className="navbar-open-menu-item">
           <DevicePhoneMobileIcon className="navbar-icons" />
-          <span>اپلیکیشن</span>
+          <span>التطبيق</span>
         </div>
         <div className="navbar-open-menu-item">
           <FaceSmileIcon className="navbar-icons" />
-          <span>دعوت دوستان</span>
+          <span>ادعو أصدقاء</span>
         </div>
         <div className="navbar-open-menu-item">
           <BuildingOffice2Icon className="navbar-icons" />
-          <span>بازار تتروان</span>
+          <span>TetherOne</span>
         </div>
       </div>
       <div className="navbar-right-side">
@@ -99,20 +99,20 @@ function Navbar({ setOpenMenu, setLanguage, setTitle }) {
             className="cursor-pointer"
             src={
               navbarBgChange
-                ? "/images/home/logo-navbar2.png"
-                : "/images/home/logo-navbar2.png"
+                ? "/images/home/En-logo-green.png"
+                : "/images/home/En-logo-green.png"
             }
             alt=""
           />
         </div>
 
         <div className="navbar-links">
-          <p>خانه</p>
-          <p>بلاگ</p>
-          <p>راهنمای استفاده</p>
-          <p>اپلیکیشن</p>
-          <p>دعوت دوستان</p>
-          <p>بازار تتروان</p>
+          <p>الصفحة الرئيسية</p>
+          <p>مدونة</p>
+          <p>دليل المستخدم</p>
+          <p>التطبيق</p>
+          <p>ادعو أصدقاء</p>
+          <p>TetherOne</p>
         </div>
       </div>
 
@@ -154,11 +154,11 @@ function Navbar({ setOpenMenu, setLanguage, setTitle }) {
         </div>
         <div className="flex justify-center items-center gap-1">
           <a
-            href="https://panel.bitnal.ir/signin/"
             className="flex gap-2 items-center justify-center"
+            href="https://panel.bitnal.ir/signin/"
           >
             <UserIcon className="w-[20px]" />
-            <p>ورود/ثبت نام</p>
+            <p>إنشاء حساب / تسجيل الدخول</p>
           </a>
         </div>
       </div>
@@ -166,4 +166,4 @@ function Navbar({ setOpenMenu, setLanguage, setTitle }) {
   );
 }
 
-export default Navbar;
+export default NavbarAr;
