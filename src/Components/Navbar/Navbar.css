@@ -69,7 +69,8 @@
   justify-content: center;
   gap: 20px;
   border-left: 2px solid var(--light-black);
-  padding-left: 50px;
+  /* padding-left: 50px;
+  min-width: 100px; */
 }
 
 /* {navbar menu open} */
@@ -186,4 +187,5 @@
   }
 }
 
-@media screen and (width< 950px) {}
+@media screen and (width< 950px) {
+}

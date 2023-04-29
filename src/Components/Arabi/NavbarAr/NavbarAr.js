@@ -126,7 +126,9 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link href="/">FA </Link>
+            <Link className="hidden md:inline-grid" href="/">
+              FA{" "}
+            </Link>
             <img className="w-[20px]" src="./images/flag/ir.png" alt="FA" />|
           </div>
           <div
@@ -137,7 +139,9 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link href="/en"> EN</Link>
+            <Link className="hidden md:inline-grid" href="/en">
+              EN
+            </Link>
             <img className="w-[20px]" src="./images/flag/en.png" alt />|
           </div>
           <div
@@ -148,7 +152,9 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link href="/ar">EM</Link>
+            <Link className="hidden md:inline-grid" href="/ar">
+              EM
+            </Link>
             <img className="w-[20px]" src="./images/flag/em.png" />
           </div>
         </div>
