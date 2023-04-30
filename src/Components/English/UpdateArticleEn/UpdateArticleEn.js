@@ -1,6 +1,6 @@
 import React from "react";
-import "./updateArticleEn.css";
 import { Carousel } from "react-responsive-carousel";
+import "./updateArticleEn.css";
 
 function UpdateArticleEn() {
   return (

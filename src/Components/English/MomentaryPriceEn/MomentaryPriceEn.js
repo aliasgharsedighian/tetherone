@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MomentaryPriceEn.css";
 
 function MomentaryPriceEn() {
   return (
@@ -33,7 +32,7 @@ function MomentaryPriceEn() {
         </div>
         <div className="lower-change-price-nemodar">
           <span className="font-bold"> {(46700).toLocaleString()}</span>
-          <span>Lowest Price</span>
+          <span style={{ textAlign: "center" }}>Lowest Price</span>
         </div>
         <div className="lower-change-price-nemodar2">
           <div className="momentary-nemodar">

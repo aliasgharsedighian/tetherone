@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./MomentaryPriceAr.css";
 
 function MomentaryPriceAr() {
   return (
@@ -13,8 +12,10 @@ function MomentaryPriceAr() {
             src="./images/home/tether-bg.svg"
           />
           <div className="momentary-tether-child">
-            <span className="text-[#78e9da] font-bold">46,800 تومان</span>
-            <span className="text-gray-600">السعر الحالي </span>
+            <span className="text-[#78e9da] font-bold min-w-[90px]">
+              46,800 تومان
+            </span>
+            <span className="text-gray-600 min-w-[90px]">السعر الحالي </span>
           </div>
         </div>
         <div className="hours-past">

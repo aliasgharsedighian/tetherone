@@ -7,8 +7,6 @@ import HomeEn from "./Components/English/HomeEn/HomeEn";
 import HomeAr from "./Components/Arabi/HomeAr/HomeAr";
 import { useEffect, useState } from "react";
 import NavbarAr from "./Components/Arabi/NavbarAr/NavbarAr";
-// import Banner from "./Components/OwlCarousel/Banner";
-// import Test from "./Components/OwlCarousel/Test";
 
 function App() {
   let location = window.location.pathname;
@@ -31,26 +29,6 @@ function App() {
   }, [title]);
   return (
     <div className="App">
-      {/* <Navbar setOpenMenu={setOpenMenu} /> */}
-      {/* {language === "FA" ? (
-        <Navbar
-          setOpenMenu={setOpenMenu}
-          setLanguage={setLanguage}
-          setTitle={setTitle}
-        />
-      ) : language === "EN" ? (
-        <NavbarEn
-          setOpenMenu={setOpenMenu}
-          setLanguage={setLanguage}
-          setTitle={setTitle}
-        />
-      ) : (
-        <NavbarAr
-          setOpenMenu={setOpenMenu}
-          setLanguage={setLanguage}
-          setTitle={setTitle}
-        />
-      )} */}
       {language === "FA" && (
         <Navbar
           setOpenMenu={setOpenMenu}

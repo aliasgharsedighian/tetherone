@@ -1,5 +1,4 @@
 import React from "react";
-import "./FooterAr.css";
 import { PhoneIcon } from "@heroicons/react/24/outline";
 
 function FooterAr() {

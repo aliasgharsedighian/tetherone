@@ -7,7 +7,6 @@ import SiteAboutTetherOneAr from "../SiteAboutTetheroneAr/SiteAboutTetherOneAr";
 import UpdateArticleAr from "../UpdateArticleAr/UpdateArticleAr";
 import ExinoMarketAr from "../exino-marketAr/ExinoMarketAr";
 import SiteAdvantagesAr from "../siteAdvantagesAr/SiteAdvantagesAr";
-import "./HomeAr.css";
 
 function HomeEn() {
   return (

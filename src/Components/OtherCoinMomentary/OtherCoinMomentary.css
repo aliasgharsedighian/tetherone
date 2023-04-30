@@ -78,7 +78,7 @@
 
 .left-coin-momentary {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   padding-right: 10px;
   border-right: 1px solid var(--very-light-black);
@@ -111,6 +111,15 @@
   .left-coin-momentary,
   .right-coin-momentary {
     height: 160px;
+  }
+
+  .coin-detail-container {
+    padding: 8px 2px;
+  }
+
+  .coin-detail-img {
+    width: 25px !important;
+    height: 25px !important;
   }
 }
 

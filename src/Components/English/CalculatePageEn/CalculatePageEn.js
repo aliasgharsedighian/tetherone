@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./CalculatePageEn.css";
 
 function CalculatePageEn() {
   const [tether, setTether] = useState("");

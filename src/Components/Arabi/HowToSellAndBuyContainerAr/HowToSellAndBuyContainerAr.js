@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./howToSellBuyAr.css";
 function HowToSellAndBuyContainerAr() {
   // const sellToTetherland = document.querySelector("#sell-to-tetherland");
   // const buyFromTetherland = document.querySelector("#buy-from-tetherland");

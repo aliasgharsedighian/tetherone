@@ -1,19 +1,23 @@
 .how-to-sell-content {
   display: none;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
+
 .how-to-buy-content {
   display: none;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
+
 .how-to-sell-content.active {
   display: flex !important;
 }
+
 .how-to-buy-content.active {
   display: flex !important;
 }
+
 .how-to-sell-and-buy-content-head-switch p {
   transition: all 350ms ease-in;
 }

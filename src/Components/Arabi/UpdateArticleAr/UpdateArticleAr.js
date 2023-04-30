@@ -1,5 +1,4 @@
 import React from "react";
-import "./updateArticleAr.css";
 import { Carousel } from "react-responsive-carousel";
 
 function UpdateArticleAr() {

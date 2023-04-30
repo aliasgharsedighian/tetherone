@@ -121,6 +121,10 @@
 
 @media screen and (width<=576px) {
   .exino-market-switch-arz {
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .tetherone-market-first-column img {
+    display: none;
   }
 }

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./NavbarAr.css";
 import { UserIcon, Bars3Icon } from "@heroicons/react/20/solid";
 import {
   HomeIcon,
@@ -26,7 +25,12 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
   };
 
   //use cleanup function in useEffect hook for addEventListener for better performance
-  window.addEventListener("scroll", changeBackground);
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+    return () => {
+      window.removeEventListener("scroll", changeBackground);
+    };
+  }, [changeBackground]);
 
   const openMenuHandle = () => {
     setOpenMenu((prev) => !prev);
@@ -126,7 +130,7 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link className="hidden md:inline-grid" href="/">
+            <Link className="hidden lg:inline-grid" href="/">
               FA{" "}
             </Link>
             <img className="w-[20px]" src="./images/flag/ir.png" alt="FA" />|
@@ -139,10 +143,10 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link className="hidden md:inline-grid" href="/en">
+            <Link className="hidden lg:inline-grid" href="/en">
               EN
             </Link>
-            <img className="w-[20px]" src="./images/flag/en.png" alt />|
+            <img className="w-[20px]" src="./images/flag/en.png" alt="" />|
           </div>
           <div
             onClick={() => {
@@ -152,10 +156,10 @@ function NavbarAr({ setOpenMenu, setLanguage, setTitle }) {
             }}
             className="change-language-single"
           >
-            <Link className="hidden md:inline-grid" href="/ar">
+            <Link className="hidden lg:inline-grid" href="/ar">
               EM
             </Link>
-            <img className="w-[20px]" src="./images/flag/em.png" />
+            <img className="w-[20px]" src="./images/flag/em.png" alt="" />
           </div>
         </div>
         <div className="flex justify-center items-center gap-1">
