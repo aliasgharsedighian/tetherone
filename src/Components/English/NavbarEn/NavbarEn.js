@@ -62,6 +62,7 @@ function NavbarEn({ setOpenMenu, setLanguage, setTitle }) {
 
   return (
     <nav
+      style={{ direction: "ltr" }}
       ref={menuRef}
       id="navbar-tag"
       className={
@@ -70,7 +71,11 @@ function NavbarEn({ setOpenMenu, setLanguage, setTitle }) {
     >
       {/* when open the menu */}
       {/* when open the menu use ternary operator for name of the className */}
-      <div className={sidebar ? "navbar-open-menu active" : "navbar-open-menu"}>
+      <div
+        className={
+          sidebar ? "navbar-open-menu-en active" : "navbar-open-menu-en"
+        }
+      >
         <div className="navbar-open-menu-item">
           <HomeIcon className="navbar-icons" />
           <span>Home</span>
@@ -97,7 +102,7 @@ function NavbarEn({ setOpenMenu, setLanguage, setTitle }) {
         </div>
       </div>
       <div className="navbar-right-side">
-        <div className="navbar-logo" onClick={() => navigate("/en")}>
+        <div className="navbar-logo en" onClick={() => navigate("/en")}>
           <Bars3Icon onClick={openMenuHandle} className="navbar-menu-icon" />
           <img
             className="cursor-pointer"
