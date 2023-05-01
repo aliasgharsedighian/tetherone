@@ -1,7 +1,7 @@
 export const MomentaryDataJsx = [
   {
     id: 1,
-    img: "http://localhost:3000/images/coin/btc.png",
+    img: "/images/coin/btc.png",
     englishName: "Bitcoin",
     PersianName: "بیت کوین",
     tetherPrice: 20072,
