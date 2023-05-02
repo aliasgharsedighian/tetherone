@@ -8,6 +8,7 @@ import HomeAr from "./Components/Arabi/HomeAr/HomeAr";
 import { useEffect, useState } from "react";
 import NavbarAr from "./Components/Arabi/NavbarAr/NavbarAr";
 import NotFoundPage from "./Components/NotFoundPage";
+import { StaticRouter } from "react-router-dom/server";
 
 function App() {
   let location = window.location.pathname;
@@ -51,6 +52,7 @@ function App() {
           setTitle={setTitle}
         />
       )}
+
       <Routes>
         <Route path="/" element={<Home openMenu={openMenu} />} />
         <Route path="/en" element={<HomeEn openMenu={openMenu} />} />
