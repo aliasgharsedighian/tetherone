@@ -3,9 +3,12 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   entry: `${__dirname}/src/index.tsx`,
   output: {
-    path: `${__dirname}/build`,
-    publicPath: "/build/",
+    path: `${__dirname}/public/build`,
+    publicPath: "/public/build/",
     filename: "bundle.js",
+    historyApiFallback: {
+      rewrites: [{ from: /\//, to: "/public/404.html" }],
+    },
   },
 
   // generate different source maps for dev and production

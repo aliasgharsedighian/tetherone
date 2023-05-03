@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import NavbarEn from "./Components/English/NavbarEn/NavbarEn";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import HomeEn from "./Components/English/HomeEn/HomeEn";
 import HomeAr from "./Components/Arabi/HomeAr/HomeAr";
